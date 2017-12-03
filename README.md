@@ -32,6 +32,8 @@ The outputs are:
 
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
+Any questions or comments, please email raylouie@hotmail.com
+
 
 ## `estimate_MPL`
 
