@@ -1,6 +1,8 @@
 ## Overview
 
-This repository contains MATLAB, Python and R implementations of the Marginal Path Likelihood (MPL) algorithm, which infers the selection coefficients from observed mutant frequencies, assuming these frequences evolved according to a Wright Fisher (WF) process. For each implementation, a function generating the WF mutant frequency trajectories (`WF_sim_traj.m/R/py`) and estimating the selection coefficients using MPL (`estimate_MPL.m/R/py`) is provided, along with a script (`main_WF_MPL.m/R/py`) which is an example script running these two functions, and generates visual plots to demonstrate the performance of the MPL algorithm.
+This repository contains MATLAB, Python and R implementations of the Marginal Path Likelihood (MPL) algorithm, which infers the selection coefficients from observed mutant frequencies, assuming these frequences evolved according to a Wright Fisher (WF) process. For each implementation, a function generating the WF mutant frequency trajectories (`WF_sim_traj.m/R/py`) and estimating the selection coefficients using MPL (`estimate_MPL.m/R/py`) is provided.
+
+Also included is an example script (`main_WF_MPL.m/R/py`) which demonstrates how these two functions are run, and generates visual plots to demonstrate the performance of the MPL algorithm, using ggplot2 (Python) and matplotlib (R).
 
 For each of the MATLAB, Python and R implementations, the two functions implementing the WF process and MPL algorithm have the same inputs and outputs, with usage described as follows:
 
@@ -30,7 +32,6 @@ The outputs are:
 
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
-For example, 
 
 ## Usage of `estimate_MPL`
 
