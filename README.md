@@ -32,9 +32,6 @@ The outputs are:
 
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
-Any questions or comments, please email raylouie@hotmail.com
-
-
 ## `estimate_MPL`
 
 The function estimates the selection coefficients from the single and double mutant frequency WF trajectories, and described by
@@ -54,3 +51,7 @@ The inputs are:
 The outputs are:
 
 `s_MPL`: estimate of the selection coefficients using the MPL algorithm
+
+
+Any questions or comments, please email raylouie@hotmail.com
+
