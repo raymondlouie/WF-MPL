@@ -8,7 +8,7 @@ For each of the MATLAB, Python and R implementations, the two functions implemen
 
 ## `WF_sim_traj`
 
- The function generating the WF trajectories is given by
+ This function generates the WF single and double mutant frequency trajectories, and described by
 
 ` WF_sim_traj(s,mu,L,N,p_init,dt_array)`
 
@@ -35,7 +35,7 @@ The outputs are:
 
 ## `estimate_MPL`
 
-The function estimating the selection coefficients from the single and double mutant frequency WF trajectories, is given by
+The function estimates the selection coefficients from the single and double mutant frequency WF trajectories, and described by
 
 `estimate_MPL(mu,dt_array,single_mut,double_mut)`
 
