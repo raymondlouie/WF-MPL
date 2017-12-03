@@ -12,16 +12,22 @@ For each of the MATLAB, Python and R implementations, the two functions implemen
 
 The inputs are:
 
-` s ` : selection coefficients 
-` mu `: mutation probability
-` L ` : number of loci
-` N ` : population size
-` p_init ` : initial genotype frequencies
-` dt_array ` : an array containing the generation number when the frequencies are observed
+`s` : selection coefficients 
+
+`mu`: mutation probability
+
+`L` : number of loci
+
+`N` : population size
+
+`p_init` : initial genotype frequencies
+
+`dt_array` : an array containing the generation number when the frequencies are observed
 
 The outputs are:
 
 `single_mut`: single mutant frequencies, stored in a T x L matrix where T is the number of observed generations
+
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
 For example, 
@@ -30,13 +36,16 @@ For example,
 
 The function estimating the selection coefficients from the single and double mutant frequency WF trajectories, is given by
 
-` estimate_MPL(mu,dt_array,single_mut,double_mut)`
+`estimate_MPL(mu,dt_array,single_mut,double_mut)`
 
 The inputs are:
 
-` mu `: mutation probability
-` dt_array ` : an array containing the generation number when the frequencies are observed
+` mu`: mutation probability
+
+` dt_array` : an array containing the generation number when the frequencies are observed
+
 `single_mut`: single mutant frequencies, stored in a T x L matrix where T is the number of observed generations
+
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
 The outputs are:
