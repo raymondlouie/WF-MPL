@@ -4,9 +4,9 @@ This repository contains MATLAB, Python and R implementations of the Marginal Pa
 
 Also included is an example script (`main_WF_MPL.m/R/py`) which demonstrates how these two functions are run, and generates visual plots to demonstrate the performance of the MPL algorithm, using ggplot2 (Python) and matplotlib (R).
 
-For each of the MATLAB, Python and R implementations, the two functions implementing the WF process and MPL algorithm have the same inputs and outputs, with usage described as follows:
+For each of the MATLAB, Python and R implementations, the two functions implementing the WF process and MPL algorithm have the same inputs and outputs, described as follows:
 
-## Usage of `WF_sim_traj`
+## `WF_sim_traj`
 
  The function generating the WF trajectories is given by
 
@@ -33,7 +33,7 @@ The outputs are:
 `double_mut`: double mutant frequencies, stored in a T x L x L matrix 
 
 
-## Usage of `estimate_MPL`
+## `estimate_MPL`
 
 The function estimating the selection coefficients from the single and double mutant frequency WF trajectories, is given by
 
